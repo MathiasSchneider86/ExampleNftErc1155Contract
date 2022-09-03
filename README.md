@@ -82,24 +82,26 @@ tmatic: {
 
 Including api key for polygonscan:
 
+```javascript
 >etherscan: {
->
->    apiKey: {
->
->      bscTestnet: "",
->
->      polygonMumbai: ""      
->
->    }
->
->  }
+    apiKey: {
+      bscTestnet: "",
+      polygonMumbai: ""      
+    }
+  }
+```
 
 Run the script:
 
->npx hardhat test --network tmatic
->
+```
+npx hardhat test --network tmatic
+```
+
 >TestMetadata deployed to: 0x8f49d9B66A9886da9c1E383E12cF18a90aefD818
 
 And verify the contract:
 
->npx hardhat verify --network tmatic 0x8f49d9B66A9886da9c1E383E12cF18a90aefD818
+```
+npx hardhat verify --network tmatic 0x8f49d9B66A9886da9c1E383E12cF18a90aefD818
+```
+
