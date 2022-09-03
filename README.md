@@ -30,37 +30,23 @@ let _paddedHex = (
 
 I don't know yet if they are shown, but I also added the attributes section, to show that you can also implement values to catch them in your later application...and I thought it doesn't hurt if we follow the metadata standard here. 
 
->
->{
->
->    "name": "Example Token 0",
->
->    "description": "ERC1155 Example Metadata Token 0",
->
->    "image": "https://ipfs.io/ipfs/QmSCWjyAXFtBHC97KC1yNRUBoj17r4rpu9DsAhYGnFQLbE/ExampleMetadataImages/example_image_token0.png",
->
->    "attributes": [
->
->        {
->
->            "display_type": "boost_number", 
->
->            "trait_type": "Number shown as boost",
->
->            "value": 100
->
->        },
->
->        {
->
->            "display_type": "number", 
->
->            "trait_type": "Number shown as stats",
->
->            "value": 1
->
->             .......            
->
+```javascript
+{
+    "name": "Example Token 0",
+    "description": "ERC1155 Example Metadata Token 0",
+    "image": "https://ipfs.io/ipfs/QmSCWjyAXFtBHC97KC1yNRUBoj17r4rpu9DsAhYGnFQLbE/ExampleMetadataImages/example_image_token0.png",
+    "attributes": [
+        {
+            "display_type": "boost_number", 
+            "trait_type": "Number shown as boost",
+            "value": 100
+        },
+        {
+            "display_type": "number", 
+            "trait_type": "Number shown as stats",
+            "value": 1
+             //.......            
+```
 
 Double check the image links and the id names. Then Upload the json files.
 
