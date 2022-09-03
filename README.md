@@ -68,3 +68,23 @@ Double check the image links and the id names. Then Upload the json files.
 Put the uri link (modified with {id}.json) in the ERC155 constructor and mint the token ids.
 
 The deployment script mints the tokens and reads out the metadata from ipfs. Result will be printed to the console.
+
+### Run test script on polygon mumbai testnet
+Define matic testnet in hardhat.config.js:
+
+>tmatic: {
+>
+>      url: "https://rpc-mumbai.maticvigil.com",
+>
+>      chainId: 80001,
+>
+>      accounts: { mnemonic:  "..."}
+>
+>    }
+
+Run the script:
+
+>npx hardhat test --network tmatic
+>
+>TestMetadata deployed to: 0x8f49d9B66A9886da9c1E383E12cF18a90aefD818
+
