@@ -17,6 +17,17 @@ First you need to upload the images to ipfs because these are linked in the json
 ### JSON files
 Create the metadata json files according to the metadata standards (see openzeppelin or opensea). Specially name, description and image should follow these standards.
 
+IMPORTANT: The name of the file must be the Id as uint256, means the id zero is 64x "0".json:
+>0000000000000000000000000000000000000000000000000000000000000000.json
+
+In js you can create the string with the following command (also used in the test deployment script):
+
+>let _paddedHex = (
+>
+>    "0000000000000000000000000000000000000000000000000000000000000000" + _id
+>    
+>  ).slice(-64);
+
 I don't know yet if they are shown, but I also added the attributes section, to show that you can also implement values to catch them in your later application...and I thought it doesn't hurt if we follow the metadata standard here. 
 
 >
