@@ -1,0 +1,27 @@
+{
+    "name": "Example Token 2",
+    "description": "ERC1155 Example Metadata Token 2",
+    "image": "https://ipfs.io/ipfs/QmSCWjyAXFtBHC97KC1yNRUBoj17r4rpu9DsAhYGnFQLbE/ExampleMetadataImages/example_image_token2.png",
+    "attributes": [
+        {
+            "display_type": "boost_number", 
+            "trait_type": "Number shown as boost",
+            "value": 100
+        },
+        {
+            "display_type": "number", 
+            "trait_type": "Number shown as stats",
+            "value": 1
+        },
+        {
+            "display_type": "boost_number", 
+            "trait_type": "Float is also possible",
+            "value": 0.1
+        },
+        {
+            "display_type": "date", 
+            "trait_type": "Displays date from unix timestamp",
+            "value": 1662076024
+        }
+    ]
+}
