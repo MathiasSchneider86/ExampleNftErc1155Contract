@@ -73,15 +73,11 @@ The deployment script mints the tokens and reads out the metadata from ipfs. Res
 Define matic testnet in hardhat.config.js:
 
 ```javascript
->tmatic: {
->
->      url: "https://rpc-mumbai.maticvigil.com",
->
->      chainId: 80001,
->
->      accounts: { mnemonic:  "..."}
->
->    }
+tmatic: {
+      url: "https://rpc-mumbai.maticvigil.com",
+      chainId: 80001,
+      accounts: { mnemonic:  "..."}
+    }
 ```
 
 Including api key for polygonscan:
