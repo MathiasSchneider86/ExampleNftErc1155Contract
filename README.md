@@ -62,4 +62,9 @@ I don't know yet if they are shown, but I also added the attributes section, to 
 >             .......            
 >
 
-Upload the json files.
+Double check the image links and the id names. Then Upload the json files.
+
+## Contract creation
+Put the uri link (modified with {id}.json) in the ERC155 constructor and mint the token ids.
+
+The deployment script mints the tokens and reads out the metadata from ipfs. Result will be printed to the console.
