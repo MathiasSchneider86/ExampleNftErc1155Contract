@@ -22,11 +22,11 @@ IMPORTANT: The name of the file must be the Id as uint256, means the id zero is 
 
 In js you can create the string with the following command (also used in the test deployment script):
 
->let _paddedHex = (
->
->    "0000000000000000000000000000000000000000000000000000000000000000" + _id
->    
->  ).slice(-64);
+```javascript
+let _paddedHex = (
+    "0000000000000000000000000000000000000000000000000000000000000000" + _id
+  ).slice(-64);
+```
 
 I don't know yet if they are shown, but I also added the attributes section, to show that you can also implement values to catch them in your later application...and I thought it doesn't hurt if we follow the metadata standard here. 
 
@@ -72,6 +72,7 @@ The deployment script mints the tokens and reads out the metadata from ipfs. Res
 ### Run test script on polygon mumbai testnet
 Define matic testnet in hardhat.config.js:
 
+```javascript
 >tmatic: {
 >
 >      url: "https://rpc-mumbai.maticvigil.com",
@@ -81,6 +82,7 @@ Define matic testnet in hardhat.config.js:
 >      accounts: { mnemonic:  "..."}
 >
 >    }
+```
 
 Including api key for polygonscan:
 
