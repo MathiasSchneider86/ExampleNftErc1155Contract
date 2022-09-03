@@ -61,3 +61,5 @@ I don't know yet if they are shown, but I also added the attributes section, to 
 >
 >             .......            
 >
+
+Upload the json files.
